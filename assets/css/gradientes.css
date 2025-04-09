@@ -1,0 +1,7 @@
+div{
+    border: solid red;
+    width: 800px;
+    height: 800px;
+    /* background: linear-gradient(45deg, red, blue, violet, orange); */
+    background: radial-gradient(ellipse, red, blue, violet, orange);
+}

@@ -1,0 +1,19 @@
+@keyframes texto-volador{
+    from{margin-left: 100%;}
+    to{margin-left: -100%;}
+}
+@keyframes resize-jeff{
+    from{width: 500px;}
+    to{width: 100px;}
+}
+.texto-animado{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: texto-volador;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+}
+.resize{
+    animation-name: resize-jeff;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+}
